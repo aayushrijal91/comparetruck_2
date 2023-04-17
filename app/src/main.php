@@ -71,31 +71,31 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="nameAbnInput">Company Name or ABN</label>
-                                    <input type="text" id="nameAbnInput" name="nameAbn" class="form-control" placeholder="Company name or ABN">
+                                    <input type="text" id="nameAbnInput" name="nameAbn" class="form-control" placeholder="Company name or ABN" required>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="fullNameInput">Your Full Name</label>
-                                    <input type="text" id="fullNameInput" name="fullName" class="form-control" placeholder="Full Name">
+                                    <input type="text" id="fullNameInput" name="fullName" class="form-control" placeholder="Full Name" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="phoneInput">Your Number</label>
-                                    <input type="tel" id="phoneInput" name="phoneNumber" class="form-control" placeholder="Phone Number">
+                                    <input type="tel" id="phoneInput" name="phoneNumber" class="form-control" placeholder="Phone Number" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="emailInput">Your Email</label>
-                                    <input type="email" id="emailInput" name="email" class="form-control" placeholder="Email">
+                                    <input type="email" id="emailInput" name="email" class="form-control" placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="loanInput">Enter Loan Amount</label>
-                                    <input type="text" id="loanInput" name="loanAmount" class="form-control" placeholder="How much are you looking for?">
+                                    <input type="text" id="loanInput" name="loanAmount" class="form-control" placeholder="How much are you looking for?" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
