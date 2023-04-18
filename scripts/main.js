@@ -98,4 +98,21 @@ $('#showMoreUtes').on('click', function() {
     }
 
     $('#moreUtes').slideToggle();
-})
+});
+
+function validateForm() {
+    let phoneInput = $('#phoneInput').val();
+    let re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+    if(!re.test(phoneInput)) {
+        $('#phoneError').fadeIn();
+
+        return false;
+    }
+
+    return true;
+}
+
+$("#heroForm").on('submit', function () {
+    return validateForm();
+});

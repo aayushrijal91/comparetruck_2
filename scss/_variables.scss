@@ -7,6 +7,7 @@ $light: #F3F6F8;
 $dark: #15151B;
 $grey: #5F5F70;
 $light-grey: #999999;
+$danger: red;
 
 $theme-colors: (
     ) !default;
@@ -19,6 +20,7 @@ $theme-colors: map-merge(("primary": $primary,
             "light": $light,
             "dark": $dark,
             "grey": $grey,
+            "danger": $danger,
             "light-grey": $light-grey
         ),
         $theme-colors
